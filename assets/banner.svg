@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.25)"/>
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(129, 140, 248, 0.25)"/>
+      <stop offset="100%" stop-color="rgba(129, 140, 248, 0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(192, 132, 252, 0.25)"/>
+      <stop offset="100%" stop-color="rgba(192, 132, 252, 0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(52, 211, 153, 0.25)"/>
+      <stop offset="100%" stop-color="rgba(52, 211, 153, 0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.6)"/>
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.8)"/>
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes orbFloat1 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(40px, -25px) scale(1.15); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    @keyframes orbFloat2 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-35px, 30px) scale(1.2); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); opacity: 0; }
+      20% { opacity: 0.7; }
+      80% { opacity: 0.7; }
+      100% { transform: translateY(420px); opacity: 0; }
+    }
+    @keyframes pulseCard {
+      0% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.02); }
+      100% { opacity: 0.35; transform: scale(1); }
+    }
+    @keyframes floatPill {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+      100% { transform: translateY(0px); }
+    }
+    .orb-1 { animation: orbFloat1 10s ease-in-out infinite; }
+    .orb-2 { animation: orbFloat2 12s ease-in-out infinite; }
+    .scan-bar { animation: scanline 6s linear infinite; }
+    .card-pulse { animation: pulseCard 7s ease-in-out infinite; transform-origin: center; }
+    .pill-anim-1 { animation: floatPill 4s ease-in-out infinite; }
+    .pill-anim-2 { animation: floatPill 4.5s ease-in-out 0.5s infinite; }
+    .pill-anim-3 { animation: floatPill 5s ease-in-out 1s infinite; }
+    .pill-anim-4 { animation: floatPill 4.8s ease-in-out 1.5s infinite; }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  </style>
+
+  <!-- Deep Background Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Dynamic Glowing Mesh Orbs (strictly in background) -->
+  <g opacity="0.38">
+    <circle class="orb-1" cx="220" cy="110" r="140" fill="#0284c7" filter="url(#glowCyan)"/>
+    <circle class="orb-2" cx="980" cy="300" r="160" fill="#7c3aed" filter="url(#glowPurple)"/>
+    <circle class="orb-1" cx="1020" cy="90" r="110" fill="#06b6d4" filter="url(#glowCyan)"/>
+  </g>
+
+  <!-- High-Tech Isometric Grid Pattern -->
+  <g stroke="rgba(255, 255, 255, 0.04)" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="150" y1="0" x2="150" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="450" y1="0" x2="450" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="750" y1="0" x2="750" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+    <line x1="1050" y1="0" x2="1050" y2="420"/>
+  </g>
+
+  <!-- Futuristic Subtle Background Window Mockups (behind text) -->
+  <g class="card-pulse" opacity="0.4">
+    <!-- Window 1 (Left Decorative) -->
+    <rect x="50" y="270" width="190" height="110" rx="8" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+    <circle cx="70" cy="285" r="4" fill="#ef4444"/>
+    <circle cx="82" cy="285" r="4" fill="#f59e0b"/>
+    <circle cx="94" cy="285" r="4" fill="#10b981"/>
+    <rect x="70" y="302" width="130" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    <rect x="70" y="318" width="90" height="5" rx="2.5" fill="rgba(56, 189, 248, 0.3)"/>
+    <rect x="70" y="332" width="110" height="5" rx="2.5" fill="rgba(255,255,255,0.1)"/>
+
+    <!-- Window 2 (Right Decorative) -->
+    <rect x="960" y="50" width="190" height="110" rx="8" fill="url(#cardGrad)" stroke="rgba(192, 132, 252, 0.25)" stroke-width="1"/>
+    <circle cx="980" cy="65" r="4" fill="#ef4444"/>
+    <circle cx="992" cy="65" r="4" fill="#f59e0b"/>
+    <circle cx="1004" cy="65" r="4" fill="#10b981"/>
+    <rect x="980" y="82" width="120" height="6" rx="3" fill="rgba(192, 132, 252, 0.3)"/>
+    <rect x="980" y="98" width="80" height="5" rx="2.5" fill="rgba(255,255,255,0.15)"/>
+    <rect x="980" y="112" width="140" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
+  </g>
+
+  <!-- Sweeping Cyber Scanline -->
+  <line class="scan-bar" x1="0" y1="0" x2="1200" y2="0" stroke="rgba(56, 189, 248, 0.18)" stroke-width="2"/>
+
+  <!-- Outer Neon Border Glow -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-opacity="0.55"/>
+
+  <!-- ================= FOREGROUND CONTENT ================= -->
+  <!-- Top Category Tag -->
+  <g transform="translate(600, 75)">
+    <rect x="-140" y="-18" width="280" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+    <circle cx="-112" cy="-1" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text text-anchor="middle" y="4" class="pill-text" fill="#38bdf8" letter-spacing="1.2">CURATED ECOSYSTEM DIRECTORY</text>
+  </g>
+
+  <!-- Main Prominent Title -->
+  <g transform="translate(600, 150)">
+    <text text-anchor="middle" class="title-text" font-size="44" fill="#ffffff" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.8))">
+      Awesome Desktop OS &amp; Web Desktops
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 202)">
+    <text text-anchor="middle" class="sub-text" font-size="19" fill="#94a3b8" letter-spacing="0.2">
+      Cloud PCs • Browser-Native Web Desktops • Docker Containers • HTML5 &amp; Wasm Sandboxes
+    </text>
+  </g>
+
+  <!-- Secondary Descriptive Line -->
+  <g transform="translate(600, 238)">
+    <text text-anchor="middle" class="sub-text" font-size="14.5" fill="#64748b">
+      Enterprise SaaS DaaS Solutions &amp; Top Open-Source Self-Hosted Virtual Desktop Infrastructure
+    </text>
+  </g>
+
+  <!-- Dynamic Feature Badges / Pills (in Foreground, clearly legible) -->
+  <g transform="translate(600, 315)">
+    <!-- Pill 1: WebRTC & KasmVNC -->
+    <g class="pill-anim-1" transform="translate(-390, 0)">
+      <rect x="0" y="0" width="180" height="42" rx="21" fill="url(#pillGrad1)" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1"/>
+      <text x="90" y="26" text-anchor="middle" class="pill-text" fill="#7dd3fc">⚡ Low-Latency WebRTC</text>
+    </g>
+
+    <!-- Pill 2: Docker & CDI -->
+    <g class="pill-anim-2" transform="translate(-195, 0)">
+      <rect x="0" y="0" width="180" height="42" rx="21" fill="url(#pillGrad2)" stroke="rgba(129, 140, 248, 0.5)" stroke-width="1"/>
+      <text x="90" y="26" text-anchor="middle" class="pill-text" fill="#a5b4fc">🐳 Containerized CDI</text>
+    </g>
+
+    <!-- Pill 3: WebAssembly Wasm -->
+    <g class="pill-anim-3" transform="translate(15, 0)">
+      <rect x="0" y="0" width="180" height="42" rx="21" fill="url(#pillGrad3)" stroke="rgba(192, 132, 252, 0.5)" stroke-width="1"/>
+      <text x="90" y="26" text-anchor="middle" class="pill-text" fill="#d8b4fe">🌐 In-Browser Wasm</text>
+    </g>
+
+    <!-- Pill 4: Cloud DaaS & VDI -->
+    <g class="pill-anim-4" transform="translate(210, 0)">
+      <rect x="0" y="0" width="180" height="42" rx="21" fill="url(#pillGrad4)" stroke="rgba(52, 211, 153, 0.5)" stroke-width="1"/>
+      <text x="90" y="26" text-anchor="middle" class="pill-text" fill="#6ee7b7">☁️ Enterprise DaaS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="450" y="380" width="300" height="3" rx="1.5" fill="url(#accentGrad)" opacity="0.8"/>
+</svg>

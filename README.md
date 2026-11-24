@@ -1,28 +1,42 @@
-# Awesome-Desktop-Operating-Systems-Web-Desktops
+<div align="center">
 
-> Curated index of top SaaS Cloud PCs, Desktop-as-a-Service (DaaS) solutions, browser-based Web Desktops, Docker containerized OS environments, and open-source virtual desktop infrastructure.
+<img src="./assets/banner.svg" alt="Awesome Desktop Operating Systems &amp; Web Desktops Banner" width="100%" />
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops?style=social)](https://github.com/ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# 🖥️ Awesome Desktop Operating Systems & Web Desktops
 
-A comprehensive, SEO-optimized directory tracking enterprise **SaaS / hosted platforms** and **open-source GitHub projects** powering **Desktop Operating Systems & Web Desktops**. These platforms stream, emulate, containerize, and render interactive GUI desktop operating systems directly inside modern web browsers via HTML5, WebRTC, Docker, WebAssembly (Wasm), and VDI streaming protocols.
+> 🚀 A curated directory of premier SaaS Cloud PCs, Desktop-as-a-Service (DaaS) solutions, browser-native Web Desktops, Docker containerized OS environments, and open-source virtual desktop infrastructure.
 
----
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops?style=social" alt="GitHub Stars"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Framework Comparison](#architecture--framework-comparison)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
+</div>
 
 ---
 
-## Sector Overview & Market Dynamics
+A comprehensive, SEO-optimized guide tracking enterprise **SaaS / hosted platforms** and **open-source GitHub projects** powering **Desktop Operating Systems & Web Desktops**. These platforms stream, emulate, containerize, and render interactive GUI desktop operating systems directly inside modern web browsers via HTML5, WebRTC, Docker, WebAssembly (Wasm), and VDI streaming protocols.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architecture & Framework Comparison](#️-architecture--framework-comparison)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Share](#-support--share)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global **Desktop-as-a-Service (DaaS)** and Cloud Workspace market is estimated at **$7.9B – $9.8B in 2025** and projected to expand to **$8.4B – $11.5B by 2026** (growing at an 11%–13% CAGR), fueled by persistent remote/hybrid enterprise workforce adoption and secure browser isolation demands. 
 
@@ -30,11 +44,11 @@ The sector features a **hybrid market structure with high concentration at the f
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 *Commercial Desktop-as-a-Service (DaaS), hosted virtual desktop infrastructure (VDI), and managed browser workspaces, sorted by company size / revenue / valuation (descending).*
 
-| Platform | Company Size (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| 🏢 Platform | 💰 Company Size (Valuation / Revenue) | 📝 Description | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft Windows 365](https://www.microsoft.com/en-us/windows-365)** | ~$3.1T Market Cap / ~$245B Ann. Rev. | Enterprise Cloud PC streaming persistent personalized Windows 11 desktops to any HTML5 browser, tablet, or thin client with Azure AD. | $28.00 / user / month (Windows 365 Business, 1 vCPU, 2 GB RAM, 64 GB Storage) | 30-day free trial (up to 1 license per tenant, 2 vCPU / 8 GB RAM / 128 GB storage configuration; requires payment method registration). |
 | **[Amazon WorkSpaces](https://aws.amazon.com/workspaces/)** | ~$2.1T Market Cap / ~$620B Ann. Rev. | Fully managed, persistent cloud virtual desktop service on AWS supporting Windows, Ubuntu, and Amazon Linux workspaces with Active Directory integration. | $21.00 / user / month (Linux, Value bundle flat rate) or $7.25 / month + $0.22 / hour (hourly metering) | 40 hours/month free for up to 3 billing cycles on AWS Free Tier (limited to 2 standard bundle virtual desktops in AutoStop mode). |
@@ -48,11 +62,11 @@ The sector features a **hybrid market structure with high concentration at the f
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 *Active open-source web desktops, browser-native operating system simulations, containerized remote desktop suites, and low-latency streaming servers. Sorted by GitHub Star Count (descending).*
 
-| Project & Repo Link | GitHub Stars | Core Architecture | Focus & Highlights |
+| 📦 Project & Repo Link | ⭐ GitHub Stars | ⚙️ Core Architecture | 🔍 Focus & Highlights |
 | :--- | :---: | :--- | :--- |
 | **[RustDesk](https://github.com/rustdesk/rustdesk)** | [![GitHub stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers) | Rust / Flutter / WebRTC | Full-featured open-source remote desktop client and server software designed as a self-hosted alternative to TeamViewer and AnyDesk with end-to-end encryption. |
 | **[dockur/windows](https://github.com/dockur/windows)** | [![GitHub stars](https://img.shields.io/github/stars/dockur/windows?style=social&color=white)](https://github.com/dockur/windows/stargazers) | Docker / KVM / QEMU / HTML5 | Automated Windows virtual machines (Windows 11, 10, Server) running inside Docker containers with KVM hardware acceleration and embedded web-browser viewer. |
@@ -79,9 +93,9 @@ The sector features a **hybrid market structure with high concentration at the f
 
 ---
 
-## Architecture & Framework Comparison
+## 🏗️ Architecture & Framework Comparison
 
-Understanding how modern browser desktops function:
+Understanding how modern browser desktops and virtual desktop infrastructures function:
 
 ```mermaid
 flowchart TD
@@ -119,35 +133,47 @@ flowchart TD
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 We welcome contributions from developers, homelab enthusiasts, and enterprise cloud architects!
 
-1. **Fork this repository** to your GitHub profile.
-2. **Add or update an entry** in `README.md` keeping the established tabular format:
+1. 🍴 **Fork this repository** to your GitHub profile.
+2. ✍️ **Add or update an entry** in `README.md` keeping the established tabular format:
    - For **SaaS**: Include platform name, company valuation/revenue tier, specific starting price, and exact free tier/trial limits.
    - For **Open-Source**: Provide repository link, GitHub star badge linking to `/stargazers`, core architecture stack, and concise factual summary.
-3. **Ensure proper sorting**:
+3. 🔢 **Ensure proper sorting**:
    - SaaS entries sorted by company size / revenue (descending).
    - Open-source projects sorted by GitHub star count (descending).
-4. **Submit a Pull Request** with a brief summary of the changes.
+4. 🚀 **Submit a Pull Request** with a clear explanation of changes.
 
 ---
 
-## Support & Share
+## 📈 Star History
 
-If you find this curated desktop ecosystem index useful:
-
-- ⭐ **Star this repository** to improve visibility for the cloud and self-hosting community.
-- 🍴 **Fork & Share** it with your engineering team, homelab circles, and remote work groups.
-- ☕ **Sponsor the Maintainer** on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007) to support continuous open-source curation and benchmarking!
-
-[![Sponsor @ishandutta2007](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Desktop-Operating-Systems-Web-Desktops&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## 💖 Support & Share
 
-- This repository is a community-curated technical directory for informational purposes and does not constitute commercial endorsement.
-- All trademarks, logos, and service marks are the property of their respective owners.
-- Exposing remote desktop endpoints (`Webtop`, `Guacamole`, `Puter`, `dockur/windows`) to public networks poses security risks: always enforce TLS/HTTPS reverse proxies, multi-factor authentication (OIDC/MFA), and zero-trust network boundaries.
+A huge **thank you** to all contributors, homelab builders, and open-source enthusiasts exploring the future of cloud computing and web-native operating systems! 🎉
+
+If you find this curated desktop ecosystem index useful, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve discoverability across GitHub.
+- 🍴 **Fork & Share** it with your engineering team, homelab circles, and remote work communities on X/Twitter, LinkedIn, and Reddit.
+- ☕ **Buy me a coffee / Sponsor** my ongoing open-source work directly on the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20me%20on-GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor on GitHub Sponsors" />
+  </a>
+</p>
+
+---
+
+## ⚠️ Disclaimer
+
+- 📌 This repository is a **community-curated technical directory** for informational purposes and does not constitute commercial endorsement.
+- 🛡️ All trademarks, product names, logos, and service marks are the property of their respective owners.
+- 🔒 Exposing remote desktop endpoints (`Webtop`, `Guacamole`, `Puter`, `dockur/windows`) to public networks poses security risks: always enforce TLS/HTTPS reverse proxies, multi-factor authentication (OIDC/MFA), and zero-trust network boundaries.
